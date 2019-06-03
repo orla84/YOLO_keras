@@ -13,6 +13,8 @@ For evaluating YOLO on PASCAL VOC, we use S = 7, B = 2. PASCAL VOC has 20 labell
 The parameters S,B,C there described are assumed in the network architecture used in this repo. Generalization efforts have been kept at minimum -- the code is meant to be used as a template to understand the Yolo model, rather than as a production-ready code.
 The input image is assumed RGB, of dimensions 448x448
 
+**Understanding Yolo**: a good source is this [article](https://hackernoon.com/understanding-yolo-f5a74bbc7967)
+
 
 ### Structure of the labels/predictions
 I assume that the (7,7,30)-shaped labels are built as follows:
